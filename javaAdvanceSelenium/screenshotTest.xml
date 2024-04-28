@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="practice.ssListener"></listener>
+	</listeners>
+	<test name="webshop">
+		<classes>
+			<class name="practice.ssTest">
+				<methods>
+					<include name="test1"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	
+	Test -->
+	<test name="web false">
+		<classes>
+			<class name="practice.ssTest">
+				<methods>
+					<include name="test2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	
+	Test -->
+</suite> <!--
+Suite -->
